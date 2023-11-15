@@ -11,8 +11,8 @@ Test the Microservice:
 
 Build and run the Docker container:
 
-````docker build -t python-microservice .
-docker run -p 5000:5000 python-microservice ```````
+```docker build -t python-microservice .
+docker run -p 5000:5000 python-microservice ```
 
 if any error,use the below command to login to docker conatiner:
 ```docker run -it --rm python-microservice /bin/bash```
