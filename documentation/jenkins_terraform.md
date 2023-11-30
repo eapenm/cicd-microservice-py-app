@@ -1,4 +1,5 @@
 # Terraform Script to Create the Servers
+I have refered this terraform script from the following gitbuh account: https://github.com/Aj7Ay/Amazon-FE/blob/main/JENKINS-TF/install_jenkins.sh
 
 ### Terraform Script to create the EC2 Server
 Below Terraform script will create the EC2 instance for deploying the jenkins software. we will provision a server with t2.large since we ahve to install jenkins,sonarqube and trivy
