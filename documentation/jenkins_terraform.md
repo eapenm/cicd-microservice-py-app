@@ -62,3 +62,22 @@ sudo apt-get update
 sudo apt-get install trivy -y
 ```
 
+### How to Configure the shared jenkins library in the jenkins.
+
+Github Url for the sahred library is as follows: https://github.com/eapenm/jenkins-shared-library
+
+Steps to configure:
+•	Go to your Jenkins dashboard.
+•	Click on "Manage Jenkins" in the left sidebar.
+•	Select "Configure System."
+•	Scroll down to the "Global Pipeline Libraries" section.
+•	Click on "Add" to add a new library.
+•	Provide a name for the library (e.g., "MySharedLibrary").
+•	Enter the repository URL (e.g., https://github.com/yourusername/your-shared-library.git).
+•	Save the configuration.
+
+![image](https://github.com/eapenm/cicd-microservice-py-app/assets/13297994/59390451-8c2f-4c88-b3c5-758c2d1a5850)
+![image](https://github.com/eapenm/cicd-microservice-py-app/assets/13297994/4302e2ec-d2bd-4394-a278-cc40d2c7659f)
+
+
+
