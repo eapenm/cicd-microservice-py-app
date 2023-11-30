@@ -20,7 +20,7 @@ resource "aws_instance" "web" {
 }
 ```
 
-We call a shell script to install the below software
+We have invoked a shell script to install the following required tools
 
 - Jenkins
 - Docker
@@ -28,7 +28,7 @@ We call a shell script to install the below software
 - Trivy software
 - OWASP Tool to scan the vulnerability
 
-Following is the shell script
+Shell script to install the tools are as follows:
 
 ```sh
 #!/bin/bash
