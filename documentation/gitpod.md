@@ -6,21 +6,21 @@
 
 Gitpod is an online development environment that allows you to spin up fully prebuilt, ready-to-code development environments in your web browser. It is designed to streamline the process of setting up and configuring development environments, making it easier for developers to start coding without dealing with local setup complexities.
 
-Key features of Gitpod include:
+**Key features of Gitpod include:**
 
-Cloud-Based IDE: Gitpod provides a fully functional cloud-based integrated development environment (IDE) accessible through a web browser.
+**Cloud-Based IDE:** Gitpod provides a fully functional cloud-based integrated development environment (IDE) accessible through a web browser.
 
-Prebuilt Environments: Environments are prebuilt and configured with necessary tools and dependencies. This helps developers avoid spending time on setting up and configuring their development environment locally.
+**Prebuilt Environments:** Environments are prebuilt and configured with necessary tools and dependencies. This helps developers avoid spending time on setting up and configuring their development environment locally.
 
-Workspace Snapshots: Gitpod allows developers to snapshot their workspace, capturing the current state of their development environment. This can be useful for sharing the environment with others or returning to a specific state later.
+**Workspace Snapshots:** Gitpod allows developers to snapshot their workspace, capturing the current state of their development environment. This can be useful for sharing the environment with others or returning to a specific state later.
 
-GitHub Integration: Gitpod integrates with GitHub, allowing developers to start a new development environment directly from a GitHub repository.
+**GitHub Integration:** Gitpod integrates with GitHub, allowing developers to start a new development environment directly from a GitHub repository.
 
-Collaboration: Gitpod supports collaborative coding, enabling multiple developers to work on the same codebase simultaneously.
+**Collaboration:** Gitpod supports collaborative coding, enabling multiple developers to work on the same codebase simultaneously.
 
-Task Automation: Developers can define and automate tasks using pre-configured VS Code extensions or custom scripts.
+**Task Automation:** Developers can define and automate tasks using pre-configured VS Code extensions or custom scripts.
 
-Pay-As-You-Go: Gitpod operates on a pay-as-you-go model, where users are billed based on the resources consumed by their development environments.
+**Pay-As-You-Go:** Gitpod operates on a pay-as-you-go model, where users are billed based on the resources consumed by their development environments.
 
 
 ### How to setup environment variables in gitpod
@@ -58,7 +58,7 @@ vscode:
 
 I've crafted shell script to facilitate the installation of essential tools and software.
 
-install_aws_cli.sh
+**install_aws_cli.sh**
 
 ```bash
 #!/usr/bin/env bash
@@ -76,7 +76,7 @@ sudo ./aws/install
 aws sts get-caller-identity
 cd $PROJECT_ROOT
 ```
-install_terraform_cli.sh
+**install_terraform_cli.sh**
 
 ```bash
 #!/usr/bin/env bash
@@ -92,7 +92,7 @@ sudo apt-get install terraform -y
 
 cd $PROJECT_ROOT
 ```
-set_tf_alias
+**set_tf_alias**
 
 ```bash
 #!/usr/bin/env bash
