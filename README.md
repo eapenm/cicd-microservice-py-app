@@ -1,25 +1,10 @@
-# cicd-microservice-py-app
-Install Flask:
-```pip install Flask```
+# Devsecops pipeline using jenkins and the others tools
 
-Run the Microservice:
+![architectural-diagram]()
 
-```python app.py```
+Details about the tools used in this pipeline
 
-Test the Microservice:
-```curl http://127.0.0.1:5000/```
-
-Build and run the Docker container:
-
-```
-docker build -t python-microservice .
-docker run -p 5000:5000 python-microservice
-```
-
-if any error,use the below command to login to docker conatiner:
-```docker run -it --rm python-microservice /bin/bash```
-
-execut the unit test using the below command:
-
-```python -m unittest test_app.py```
-
+- [Python Service](documentation/python_service.md)
+- Terraform Modules
+  - [Terraform Script - Jenkins Server](documentation/jenkins_terraform.md)
+  - [Terraform Script - Elastic KUbernetes Service](documentation/eks_terraform.md)

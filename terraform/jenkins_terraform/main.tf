@@ -1,11 +1,11 @@
-resource "aws_security_group" "Jenkins-sg" {
-  name        = "Jenkins-Security Group"
-  description = "Open 22,443,80,8080,9000"
+resource "aws_security_group" "jenkins-sg" {
+  name        = "jenkins-security-group"
+  description = "Jenkins Security Group to give access to different ports required to develop the pipeline"
 
   # Define a single ingress rule to allow traffic on all specified ports
   ingress = [
     for port in [22, 80, 443, 8080, 9000, 3000] : {
-      description      = "TLS from VPC"
+      description      = "Created Securty Group for Jenkins"
       from_port        = port
       to_port          = port
       protocol         = "tcp"
@@ -25,7 +25,7 @@ resource "aws_security_group" "Jenkins-sg" {
   }
 
   tags = {
-    Name = "Jenkins-sg"
+    Name = "Jenkins-SG"
   }
 }
 
@@ -34,11 +34,11 @@ resource "aws_instance" "web" {
   ami                    = "ami-0fc5d935ebf8bc3bc"
   instance_type          = "t2.large"
   key_name               = "Robin"
-  vpc_security_group_ids = [aws_security_group.Jenkins-sg.id]
+  vpc_security_group_ids = [aws_security_group.jenkins-sg.id]
   user_data              = templatefile("./install_jenkins.sh", {})
 
   tags = {
-    Name = "Jenkins-sonar"
+    Name = "Jenkins Server"
   }
   root_block_device {
     volume_size = 30
