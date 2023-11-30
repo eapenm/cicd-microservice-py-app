@@ -2,7 +2,7 @@
 
 ![Architecture_Diagram_Devsecops_Pipeline](https://github.com/eapenm/cicd-microservice-py-app/assets/13297994/0314d468-1d6c-4815-8b13-03dc2653368f)
 
-###We have two Phases in this pipeline
+### We have two Phases in this pipeline
 
 - Following are the different stages for Continuous Integration Phase:
   - Execute the unit test/automation test/integration test
@@ -20,7 +20,7 @@
   - We will use Prometes for the observability
   - We will use Grafana for creating the different dashboards using the data collected by Prometeus.     
 
-###Details about the tools used in this pipeline
+### Details about the tools used in this pipeline
 
 - [Python Service](documentation/python_service.md)
 - Terraform Modules
