@@ -1,6 +1,7 @@
 # Devsecops pipeline using jenkins and the others tools
 
-![architectural-diagram]()
+![Architecture_Diagram_Devsecops_Pipeline](https://github.com/eapenm/cicd-microservice-py-app/assets/13297994/0314d468-1d6c-4815-8b13-03dc2653368f)
+
 
 Details about the tools used in this pipeline
 
