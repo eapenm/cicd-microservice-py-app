@@ -11,6 +11,12 @@ COPY . .
 # Stage 2: Production Stage
 FROM python:3.10-slim-buster
 
+# Create a non-root user named 'appuser'
+RUN adduser --disabled-password --gecos '' appuser
+
+# Switch to the 'appuser' for subsequent commands
+USER appuser
+
 WORKDIR /app
 
 # Copy only necessary files from the build stage
