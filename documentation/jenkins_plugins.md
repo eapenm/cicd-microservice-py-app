@@ -14,12 +14,10 @@ Manage Jenkins> Tools
 
 ### Docker Configuration
 
-![Alt text](assets/jenkins_docker.png)
-
 ![](https://github.com/eapenm/cicd-microservice-py-app/blob/dev/assets/jenkins_docker.png)
 
 Note: Click the "Add Installer" and add the "Download from latest docker version"
 
 ### SonarQube Configuration
 
-![Alt text](assets/sonarqube_jenkins_plugin_config.png)
+![](https://github.com/eapenm/cicd-microservice-py-app/blob/dev/assets/sonarqube_jenkins_plugin_config.png)
