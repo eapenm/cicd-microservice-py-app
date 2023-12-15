@@ -12,9 +12,11 @@ Configure plugins:
 
 Manage Jenkins> Tools
 
-### Docker COnfiguration
+### Docker Configuration
 
 ![Alt text](assets/jenkins_docker.png)
+
+(https://github.com/eapenm/cicd-microservice-py-app/blob/dev/assets/jenkins_docker.png)
 
 Note: Click the "Add Installer" and add the "Download from latest docker version"
 
