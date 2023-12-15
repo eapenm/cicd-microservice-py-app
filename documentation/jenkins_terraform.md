@@ -61,6 +61,8 @@ echo "deb [signed-by=/usr/share/keyrings/trivy.gpg] https://aquasecurity.github.
 sudo apt-get update
 sudo apt-get install trivy -y
 ```
+### Jenkins plugins to install:
+[Reguired Jenkins Plugin for this Project](documentation/jenkins_plugins.md)
 
 ### How to Configure the shared jenkins library in the jenkins.
 
